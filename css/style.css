@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../police/Nunito-SemiBold.eot');
+    src: local('Nunito SemiBold'), local('Nunito-SemiBold'),
+        url('../police/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../police/Nunito-SemiBold.woff2') format('woff2'),
+        url('../police/Nunito-SemiBold.woff') format('woff'),
+        url('../police/Nunito-SemiBold.ttf') format('truetype'),
+        url('../police/Nunito-SemiBold.svg#Nunito-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    padding-top: 120px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-style: normal;
+    background: linear-gradient(0deg, rgba(172,172,172,1) 0%, rgba(36,36,36,1) 100%);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav {
+    color: #ffffff;
+    background-color: #242424;
+    box-shadow: 5px 5px 10px 1px rgba(10, 10, 10, 0.2);
+    padding-bottom: 15px;
+}
+nav a {
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 25px;
+    padding-left: 50px;
+}
+.divers {
+    display: inline-block;
+    margin-left: 40px;
+    color: #fff;
+    list-style-type: none;
+    padding: 0;
+}
+.divers:hover .sousdivers {
+    display: block;
+}
+.divers:hover .sousdivers li {
+    list-style-type: none;
+}
+.divers:hover .sousdivers ul {
+    padding-left: 0;
+    margin: 0;
+}
+.divers:hover .sousdivers a {
+    padding-left: 0;
+    margin-top: 10px;
+}
+.sousdivers{
+    display: none;
+    float: left;
+    width: 10px;
+    list-style-type: none;
+    margin-right: 200px;
+}
+nav h1 {
+    float: Left;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+footer {
+    color: #fbfbfb;
+    background-color: #242424;
+    box-shadow: 5px 5px 10px 1px rgba(10, 10, 10, 0.2);
+    flex: 1;
+    box-sizing: border-box;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color:bisque;
+}
+@media screen and (max-width: 800px) {
+    nav {
+        color: #ffffff;
+        background-color: #242424;
+        box-shadow: 5px 5px 10px 1px rgba(10, 10, 10, 0.2);
+        padding-bottom: 15px;
+    } 
+}
+
+
+

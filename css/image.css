@@ -1,0 +1,28 @@
+.imagegrande {
+    margin-left: 25%;
+    margin-right: 25%;
+    max-height: 50%;
+    max-width: 50%;
+    height: 50px;
+}
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 450px;
+}
+.galeriesize {
+    height: 250px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+figcaption {
+    background-color: #242424;
+    color: #fefefe;
+    box-shadow: 5px 5px 10px 5px rgba(3, 3, 3, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 150 px;
+}
