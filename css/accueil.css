@@ -92,3 +92,46 @@ article a:hover {
         margin: 15px;
     }
 }
+
+#comp {
+    color: #fbfbfb;
+    display: inline-block;
+    margin-top: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 50px;
+    background-color: #242424;
+    padding: 50px;
+    box-shadow: 5px 5px 10px 5px rgba(17, 17, 17, 0.2);
+    border-radius: 5px;
+}
+
+.circular-progress{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+}

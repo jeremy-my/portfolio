@@ -6,7 +6,7 @@
 #cursus li {
     list-style-type: none;
 }
-section {
+#cursus ul {
     background-color: #242424;
     margin-top: 5px;
     color: #fefefe;
