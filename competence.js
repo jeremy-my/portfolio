@@ -1,5 +1,5 @@
 let competenceProgression = document.querySelector(".competence-Progression"),
-ProgressionValue = document.querySelector(".Progression-value");
+ProgressionValue = document.querySelector(".progression-value");
 
 let ProgressionStartValue = 0,    
 ProgressionEndValue = 90,    
