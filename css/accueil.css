@@ -111,7 +111,7 @@ article a:hover {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    background: conic-gradient(#7d2ae8 3.6deg, #ededed 0deg);
+    background: conic-gradient(#00f4d8 3.6deg, #dfdf0c 0deg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,16 +122,16 @@ article a:hover {
     height: 210px;
     width: 210px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #c80303;
 }
 .progress-value{
     position: relative;
     font-size: 40px;
     font-weight: 600;
-    color: #7d2ae8;
+    color: #00f4d8;
 }
 .text{
     font-size: 30px;
     font-weight: 500;
-    color: #606060;
+    color: #bb06c8;
 }
