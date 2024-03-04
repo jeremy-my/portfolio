@@ -106,7 +106,7 @@ article a:hover {
     border-radius: 5px;
 }
 
-.circular-progress{
+.competence-Progression{
     position: relative;
     height: 250px;
     width: 250px;
@@ -116,7 +116,7 @@ article a:hover {
     align-items: center;
     justify-content: center;
 }
-.circular-progress::before{
+.competence-Progression::before{
     content: "";
     position: absolute;
     height: 210px;
