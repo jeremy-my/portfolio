@@ -1,20 +1,7 @@
-@font-face {
-    font-family: 'Nunito';
-    src: url('../police/Nunito-SemiBold.eot');
-    src: local('Nunito SemiBold'), local('Nunito-SemiBold'),
-        url('../police/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../police/Nunito-SemiBold.woff2') format('woff2'),
-        url('../police/Nunito-SemiBold.woff') format('woff'),
-        url('../police/Nunito-SemiBold.ttf') format('truetype'),
-        url('../police/Nunito-SemiBold.svg#Nunito-SemiBold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
 body {
     padding-top: 120px;
-    font-family: 'Nunito';
-    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
     background: linear-gradient(0deg, rgba(172,172,172,1) 0%, rgba(36,36,36,1) 100%);
     display: flex;
@@ -27,18 +14,21 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 10000;
 }
 nav {
     color: #ffffff;
     background-color: #242424;
     box-shadow: 5px 5px 10px 1px rgba(10, 10, 10, 0.2);
     padding-bottom: 15px;
+    z-index: 10000;
 }
 nav a {
     color: #ffffff;
     display: inline-block;
     margin-top: 25px;
     padding-left: 50px;
+    z-index: 10000;
 }
 .divers {
     display: inline-block;

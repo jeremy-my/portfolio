@@ -10,8 +10,8 @@
     color: #fbfbfb;
     display: inline-block;
     margin-top: auto;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 50px;
     background-color: #242424;
     padding: 50px;
@@ -91,47 +91,4 @@ article a:hover {
     aside li {
         margin: 15px;
     }
-}
-
-#comp {
-    color: #fbfbfb;
-    display: inline-block;
-    margin-top: auto;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 50px;
-    background-color: #242424;
-    padding: 50px;
-    box-shadow: 5px 5px 10px 5px rgba(17, 17, 17, 0.2);
-    border-radius: 5px;
-}
-
-.competence-Progression{
-    position: relative;
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-    background: conic-gradient(#00f4d8 3.6deg, #dfdf0c 0deg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.competence-Progression::before{
-    content: "";
-    position: absolute;
-    height: 210px;
-    width: 210px;
-    border-radius: 50%;
-    background-color: #c80303;
-}
-.progress-value{
-    position: relative;
-    font-size: 40px;
-    font-weight: 600;
-    color: #00f4d8;
-}
-.text{
-    font-size: 30px;
-    font-weight: 500;
-    color: #bb06c8;
 }
