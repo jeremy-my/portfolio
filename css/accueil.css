@@ -13,13 +13,13 @@
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 50px;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 50px;
     box-shadow: 5px 5px 10px 5px rgba(17, 17, 17, 0.2);
     border-radius: 5px;
 }
 article{
-    background-color: #fff;
+    background-color: #ffffff;
     margin-top: 30px;
     color: #000000;
     margin-bottom: 80px;
@@ -33,7 +33,7 @@ aside {
     display: flex;
     justify-content: center;
     margin-right: 15px;
-    background-color: #242424;
+    background-color: #F2F2F2;
     float: right;
     width: 64px;
     height: 11em;
@@ -47,7 +47,7 @@ aside li {
     list-style-type: none;
 }
 aside a {
-    color: #fefefe;
+    background-color: #F2F2F2;
 }
 article a:hover {
     color:rgb(255, 0, 140);

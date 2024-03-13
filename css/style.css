@@ -4,7 +4,7 @@ body {
     font-weight: 300;
     font-style: normal;
     /* background: linear-gradient(0deg, rgba(172,172,172,1) 0%, rgba(36,36,36,1) 100%); */
-    background-color: #fff;
+    background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -16,6 +16,9 @@ header {
     left: 0;
     right: 0;
     z-index: 10000;
+}
+h1{
+    color: #174031;
 }
 nav {
     color: #000000;
@@ -65,8 +68,8 @@ nav h1 {
     padding-left: 50px;
 }
 footer {
-    color: #fbfbfb;
-    background-color: #242424;
+    color: #000000;
+    background-color: #ffffff;
     box-shadow: 5px 5px 10px 1px rgba(10, 10, 10, 0.2);
     flex: 1;
     box-sizing: border-box;
