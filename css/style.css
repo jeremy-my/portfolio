@@ -1,7 +1,7 @@
 body {
     padding-top: 120px;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     /* background: linear-gradient(0deg, rgba(172,172,172,1) 0%, rgba(36,36,36,1) 100%); */
     background-color: #F2F2F2;
@@ -19,6 +19,10 @@ header {
 }
 h1{
     color: #174031;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 0.9%;
 }
 nav {
     color: #000000;
@@ -34,34 +38,6 @@ nav a {
     padding-left: 50px;
     z-index: 10000;
 }
-.divers {
-    display: inline-block;
-    margin-left: 40px;
-    color: #000000;
-    list-style-type: none;
-    padding: 0;
-}
-.divers:hover .sousdivers {
-    display: block;
-}
-.divers:hover .sousdivers li {
-    list-style-type: none;
-}
-.divers:hover .sousdivers ul {
-    padding-left: 0;
-    margin: 0;
-}
-.divers:hover .sousdivers a {
-    padding-left: 0;
-    margin-top: 10px;
-}
-.sousdivers{
-    display: none;
-    float: left;
-    width: 10px;
-    list-style-type: none;
-    margin-right: 200px;
-}
 nav h1 {
     float: Left;
     padding-right: 50px;
@@ -72,6 +48,7 @@ footer {
     background-color: #ffffff;
     box-shadow: 5px 5px 10px 1px rgba(10, 10, 10, 0.2);
     flex: 1;
+    padding-top: 20px;
     box-sizing: border-box;
     text-align: center;
 }
