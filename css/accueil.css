@@ -7,21 +7,21 @@
     margin-right: 50px;
 }
 #presentation {
-    color: #fbfbfb;
+    color: #000000;
     display: inline-block;
     margin-top: auto;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 50px;
-    background-color: #242424;
+    background-color: #fff;
     padding: 50px;
     box-shadow: 5px 5px 10px 5px rgba(17, 17, 17, 0.2);
     border-radius: 5px;
 }
 article{
-    background-color: #242424;
+    background-color: #fff;
     margin-top: 30px;
-    color: #fefefe;
+    color: #000000;
     margin-bottom: 80px;
     margin-left: 30%;
     margin-right: 30%;
