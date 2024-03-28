@@ -1,0 +1,26 @@
+#barre {   
+    display: none;
+}
+nav {
+    display: none;
+}
+footer {
+    display: none;   
+}
+aside {
+    display: none
+}
+#presentation {
+    color: #fbfbfb;
+    display: inline-block;
+    margin-top: auto;
+    background-color: #242424;
+    padding: 50px;
+}
+article{
+    background-color: #242424;
+    margin-top: 30px;
+    color: #fefefe;
+    padding: 25px;
+    border-radius: 5px;
+}
