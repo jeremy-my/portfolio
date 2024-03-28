@@ -1,0 +1,32 @@
+div{
+    background-color: #242424;
+    margin-top: 30px;
+    color: #fefefe;
+    margin-bottom: 250px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 25px;
+    box-shadow: 5px 5px 10px 5px rgba(3, 3, 3, 0.2);
+    border-radius: 5px;
+}
+.error {
+    background-color: #ffffff;
+    color: #fc0000;
+    border-radius: 5px;
+    padding: 5px;
+}
+.recap {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+input:valid {
+    color: rgb(1, 133, 45);
+}
+input:invalid {
+    color: red;
+}
+input:invalid {
+    color: rgb(121, 0, 0);
+}

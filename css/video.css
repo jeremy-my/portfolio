@@ -1,0 +1,18 @@
+video {
+    float: right;
+}
+div{
+    margin-bottom: 30px;
+}
+section {
+    background-color: #242424;
+    color: #fefefe;
+    margin-top: 80px;
+    margin-bottom: 250px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    padding-bottom: 305px;
+    box-shadow: 5px 5px 10px 5px rgba(3, 3, 3, 0.2);
+    border-radius: 5px;
+}
