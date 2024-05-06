@@ -22,7 +22,7 @@ h1{
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    margin-top: 0.9%;
+    margin-top: 1.9%;
 }
 nav {
     color: #000000;
@@ -43,6 +43,26 @@ nav h1 {
     padding-right: 50px;
     padding-left: 50px;
 }
+.nav_project nav {
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 1px rgba(10, 10, 10, 0.2);
+    padding-bottom: 25px;
+    z-index: 10000;
+}
+.nav_project nav a {
+    color: #000000;
+    display: inline-block;
+    margin-top: 35px;
+    padding-left: 50px;
+    z-index: 10000;
+}
+.nav_project nav h1 {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
 footer {
     color: #000000;
     background-color: #ffffff;
@@ -56,6 +76,29 @@ a {
     text-decoration: none;
     color:bisque;
 }
+article {
+    background-color: #ffffff;
+    margin-top: 30px;
+    color: #000000;
+    margin-bottom: 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 25px;
+    box-shadow: 5px 5px 10px 5px rgba(3, 3, 3, 0.2);
+    border-radius: 5px;
+    overflow: auto; 
+}
+
+#project_image {
+    max-height: 80%;
+    max-width: 80%;
+    margin: 15px auto;
+    display: block; 
+}
+#project_image + a {
+    text-align: center; /* Centrer le paragraphe ou le lien suivant l'image */
+}
+
 @media screen and (max-width: 800px) {
     nav a {
         display: none;

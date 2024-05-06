@@ -19,6 +19,14 @@
     border-radius: 5px;
 }
 
+#cv{
+    background-color: #174031;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
 #contact {
     color: #000000;
     display: flex;
@@ -33,14 +41,24 @@
     box-shadow: 5px 5px 10px 5px rgba(17, 17, 17, 0.2);
     border-radius: 5px;
 }
-
-article{
+#projets{
     background-color: #ffffff;
     margin-top: 30px;
     color: #000000;
     margin-bottom: 80px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    box-shadow: 5px 5px 10px 5px rgba(3, 3, 3, 0.2);
+    border-radius: 5px;
+}
+#qualites{
+    background-color: #ffffff;
+    margin-top: 30px;
+    color: #000000;
+    margin-bottom: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 25px;
     box-shadow: 5px 5px 10px 5px rgba(3, 3, 3, 0.2);
     border-radius: 5px;
@@ -73,6 +91,23 @@ footer svg{
     width: 50px;
     height: 50px;
 }
+#projets .card .box a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+#projets .card .box a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    font-weight: bold;
+}
+#competences .comp a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
 @media screen and (max-width: 800px) {
     section {
         display: flex;
