@@ -105,7 +105,13 @@ article {
     } 
     nav {
         padding-bottom: 50px;
-    } 
+   }
+   #cv {
+       display: inline-block;
+       margin-top: 1%;
+       margin-right: 20%
+   }
+
 }
 
 
