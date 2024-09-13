@@ -8,15 +8,12 @@
 }
 #presentation {
     color: #000000;
-    background-color: #ffffff;
     display: inline-block;
     margin-top: auto;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 50px;
     padding: 50px;
-    box-shadow: 5px 5px 10px 5px rgba(17, 17, 17, 0.2);
-    border-radius: 5px;
 }
 
 #cv{
