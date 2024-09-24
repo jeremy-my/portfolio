@@ -491,6 +491,11 @@ h4{
     text-align: center;
 }
 
+.card img{
+    max-height: 20%;
+    max-width: 20%;
+}
+
 
 
 
