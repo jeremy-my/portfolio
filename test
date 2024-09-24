@@ -1,0 +1,30 @@
+<body>
+	<div class="timeline">
+		<div class="colonne colonne1">
+			<section>
+				<div class="descriptif">
+					<span class="title">Titre 1</span>
+					<spans>2024</spans>
+				</div>
+				<p>fhudhfusqgghsdfugfdhsgqhsfgdsgsdg</p>
+				<div class="Plus">
+					<a href="#">Voir plus</a>
+				</div>
+			</section>
+		</div>
+		<div class="colonne colonne1">
+			<section>
+				<div class="descriptif">
+					<span class="title">Titre 1</span>
+					<spans>2024</spans>
+				</div>
+				<p>fhudhfusqgghsdfugfdhsgqhsfgdsgsdg</p>
+				<div class="Plus">
+					<a href="#">Voir plus</a>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+
+
