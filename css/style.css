@@ -7,7 +7,7 @@
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-style: bold;
+    font-style: normal;
     background-color: #F2F2F2;
 }
 header {
@@ -194,7 +194,7 @@ article {
 .row section .bottom a{
     text-decoration: none;
     background: #fff;
-    color: #black;
+    color: black;
     padding: 7px 15px;
     border-radius: 5px;
     /* font-size: 17px; */
