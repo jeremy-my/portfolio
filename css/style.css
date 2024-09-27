@@ -345,6 +345,21 @@ svg circle:nth-child(2){
     stroke: #174031;
 }
 
+.card:nth-child(6) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 30) / 100);
+    stroke: #174031;
+}
+
+.card:nth-child(6) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    stroke: #174031;
+}
+
+.card:nth-child(6) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 70) / 100);
+    stroke: #174031;
+}
+
 #pp {
     max-height: 20%;
     max-width: 20%;
@@ -376,19 +391,16 @@ svg circle:nth-child(2){
 }
 
 #contact {
+    background-color: #ffffff;
+    margin-top: 30px;
     color: #000000;
-    display: flex;
-    justify-content: space-evenly;
-    width: 85%;
-    height: 50%;
+    margin-bottom: 80px;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    background-color: #ffffff;
-    padding: 50px;
-    box-shadow: 5px 5px 10px 5px rgba(17, 17, 17, 0.2);
+    padding: 25px;
+    box-shadow: 5px 5px 10px 5px rgba(3, 3, 3, 0.2);
     border-radius: 5px;
+
 }
 #projets{
     background-color: #ffffff;
