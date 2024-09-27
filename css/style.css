@@ -122,8 +122,8 @@ article {
 
 }
 .timeline img{
-    width: 30%;
-    height: 50%;
+    width: 40%;
+    height: auto;
 }
 .timeline .center-line{
     position: absolute;
@@ -492,8 +492,8 @@ h4{
 }
 
 .card img{
-    max-height: auto;
-    max-width: auto;
+    max-height: 40%;
+    max-width: 40%;
 }
 
 
